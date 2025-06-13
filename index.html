@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMART CARE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="top-info bg-primary text-white py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="me-3"><i class="bi bi-telephone-fill"></i> (11) 3155-2800</div>
+            <div><i class="bi bi-envelope-fill"></i> contato@hospitalinfantilsabara.org.br</div>
+          </div>
+          <div class="col-md-6 text-md-end d-none d-md-block">
+            <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="logo-wrapper">
+            <span class="logo-text">Hospital Infantil <span class="fw-bold text-primary">Sabará</span></span>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Início</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="./sobre.html" >
+                Sobre Nós
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contato.html">Contato</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn btn-primary rounded-pill" href="./triagem.html">Triagem</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-overlay"></div>
+          <img src="https://images.pexels.com/photos/4021779/pexels-photo-4021779.jpeg" class="d-block w-100" alt="Criança sorrindo">
+          <div class="carousel-caption">
+            <h1>Cuidado especializado para o bem-estar do seu filho</h1>
+            <p>Nossa equipe de profissionais altamente qualificados está pronta para cuidar da saúde do seu filho com dedicação e carinho.</p>
+            <div class="mt-4">
+              <a href="./contato.html" class="btn btn-primary btn-lg me-2 rounded-pill">Agendar Consulta</a>
+              <a href="#especialidade" class="btn btn-outline-light btn-lg rounded-pill">Conheça Nossas Especialidades</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-overlay"></div>
+          <img src="https://images.pexels.com/photos/6823562/pexels-photo-6823562.jpeg" class="d-block w-100" alt="Médica com criança">
+          <div class="carousel-caption">
+            <h1>Tecnologia e humanização a serviço da saúde infantil</h1>
+            <p>Combinamos tecnologia de ponta com atendimento humanizado para proporcionar a melhor experiência.</p>
+            <div class="mt-4">
+              <a href="./sobre.html" class="btn btn-primary btn-lg me-2 rounded-pill">Conheça Nossa Estrutura</a>
+              <a href="#especialidade" class="btn btn-outline-light btn-lg rounded-pill">Nossa Equipe</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-overlay"></div>
+          <img src="https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg" class="d-block w-100" alt="Médico examinando criança">
+          <div class="carousel-caption">
+            <h1>Cuidados de emergência 24 horas</h1>
+            <p>Atendimento de urgência e emergência disponível 24 horas por dia, todos os dias da semana.</p>
+            <div class="mt-4">
+              <a href="./contato.html" class="btn btn-primary btn-lg me-2 rounded-pill">Emergências</a>
+              <a href="./contato.html" class="btn btn-outline-light btn-lg rounded-pill">Como Chegar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </section>
+
+
+  <section class="features py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card text-center p-4 h-100">
+            <div class="icon-wrapper mb-3">
+              <i class="bi bi-heart-pulse-fill text-primary"></i>
+            </div>
+            <h3>Atendimento de Qualidade</h3>
+            <p>Oferecemos atendimento de alta qualidade, com foco no bem-estar e segurança das crianças.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card text-center p-4 h-100">
+            <div class="icon-wrapper mb-3">
+              <i class="bi bi-people-fill text-primary"></i>
+            </div>
+            <h3>Equipe Especializada</h3>
+            <p>Nossa equipe é composta por profissionais altamente qualificados e especializados em saúde infantil.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card text-center p-4 h-100">
+            <div class="icon-wrapper mb-3">
+              <i class="bi bi-building-fill-check text-primary"></i>
+            </div>
+            <h3>Infraestrutura Moderna</h3>
+            <p>Instalações modernas e equipamentos de última geração para diagnóstico e tratamento precisos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="https://images.pexels.com/photos/5214953/pexels-photo-5214953.jpeg" alt="Área interna do hospital" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6">
+          <div class="section-heading mb-4">
+            <span class="subheading text-primary">Sobre Nós</span>
+            <h2>Hospital Infantil Sabará: Referência em Saúde Infantil</h2>
+          </div>
+          <p>Fundado há mais de 50 anos, o Hospital Infantil Sabará é uma referência em saúde infantil no Brasil. Nossa missão é proporcionar atendimento médico de excelência, com foco no bem-estar e segurança das crianças.</p>
+          <p>Contamos com uma equipe multidisciplinar de profissionais altamente qualificados e dedicados, que trabalham com compromisso e empatia para oferecer o melhor cuidado possível.</p>
+          
+          <div class="stats-container d-flex flex-wrap mt-4">
+            <div class="stat-item me-4 mb-3">
+              <div class="stat-number text-primary fw-bold">50+</div>
+              <div class="stat-label">Anos de Experiência</div>
+            </div>
+            <div class="stat-item me-4 mb-3">
+              <div class="stat-number text-primary fw-bold">200+</div>
+              <div class="stat-label">Médicos Especialistas</div>
+            </div>
+            <div class="stat-item me-4 mb-3">
+              <div class="stat-number text-primary fw-bold">30+</div>
+              <div class="stat-label">Especialidades</div>
+            </div>
+            <div class="stat-item mb-3">
+              <div class="stat-number text-primary fw-bold">50k+</div>
+              <div class="stat-label">Pacientes Atendidos/Ano</div>
+            </div>
+          </div>
+          
+          <a href="./sobre.html" class="btn btn-primary rounded-pill mt-3">Conheça Nossa História</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="services py-5">
+    <div class="container">
+      <div class="section-heading text-center mb-5">
+        <span class="subheading text-primary">Nossas Especialidades</span>
+        <h2>Serviços Especializados em Saúde Infantil</h2>
+        <p class="lead">Oferecemos uma ampla gama de especialidades médicas para cuidar da saúde do seu filho</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="bi bi-clipboard2-heart"></i>
+            </div>
+            <div class="service-content">
+              <h3>Pediatria Geral</h3>
+              <p>Cuidados gerais de saúde para crianças e adolescentes, desde recém-nascidos até os 18 anos de idade.</p>
+              <a href="#" class="btn-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="service-content">
+              <h3>Cardiologia Infantil</h3>
+              <p>Diagnóstico e tratamento de doenças congênitas e adquiridas do coração em crianças.</p>
+              <a href="#" class="btn-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="bi bi-lungs"></i>
+            </div>
+            <div class="service-content">
+              <h3>Pneumologia Infantil</h3>
+              <p>Tratamento de doenças respiratórias em crianças, como asma, bronquite e outras condições pulmonares.</p>
+              <a href="#" class="btn-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="bi bi-hospital"></i>
+            </div>
+            <div class="service-content">
+              <h3>Pronto Atendimento</h3>
+              <p>Atendimento de urgência e emergência disponível 24 horas por dia, todos os dias da semana.</p>
+              <a href="#" class="btn-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="bi bi-activity"></i>
+            </div>
+            <div class="service-content">
+              <h3>Neurologia Infantil</h3>
+              <p>Diagnóstico e tratamento de doenças neurológicas em crianças, como epilepsia, enxaqueca e distúrbios do desenvolvimento.</p>
+              <a href="#" class="btn-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="bi bi-bandaid"></i>
+            </div>
+            <div class="service-content">
+              <h3>Ortopedia Infantil</h3>
+              <p>Tratamento de problemas ortopédicos em crianças, como fraturas, deformidades congênitas e doenças do desenvolvimento.</p>
+              <a href="#" class="btn-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
+  <section class="doctors py-5 bg-light" >
+    <div class="container">
+      <div class="section-heading text-center mb-5" id="#especialidade">
+        <span class="subheading text-primary">Nossa Equipe</span>
+        <h2>Médicos Especialistas</h2>
+        <p class="lead">Conheça alguns dos nossos médicos especialistas com vasta experiência em saúde infantil</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="doctor-card h-100">
+            <div class="doctor-image">
+              <img src="https://images.pexels.com/photos/5214949/pexels-photo-5214949.jpeg" alt="Dra. Ana Silva" class="img-fluid">
+            </div>
+            <div class="doctor-info p-3">
+              <h4>Dra. Ana Silva</h4>
+              <p class="specialty">Pediatra Geral</p>
+              <p class="small">CRM-SP 123456</p>
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3">
+          <div class="doctor-card h-100">
+            <div class="doctor-image">
+              <img src="https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg" alt="Dr. Carlos Oliveira" class="img-fluid">
+            </div>
+            <div class="doctor-info p-3">
+              <h4>Dra. Thais Oliveira</h4>
+              <p class="specialty">Cardiologista Infantil</p>
+              <p class="small">CRM-SP 234567</p>
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3">
+          <div class="doctor-card h-100">
+            <div class="doctor-image">
+              <img src="https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg" alt="Dra. Mariana Santos" class="img-fluid">
+            </div>
+            <div class="doctor-info p-3">
+              <h4>Dra. Mariana Santos</h4>
+              <p class="specialty">Neurologista Infantil</p>
+              <p class="small">CRM-SP 345678</p>
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3">
+          <div class="doctor-card h-100">
+            <div class="doctor-image">
+              <img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg" alt="Dr. Roberto Almeida" class="img-fluid">
+            </div>
+            <div class="doctor-info p-3">
+              <h4>Dr. Roberto Almeida</h4>
+              <p class="specialty">Ortopedista Infantil</p>
+              <p class="small">CRM-SP 456789</p>
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </section>
+
+
+  <section class="testimonials py-5">
+    <div class="container">
+      <div class="section-heading text-center mb-5">
+        <span class="subheading text-primary">Depoimentos</span>
+        <h2>O Que Dizem Nossos Pacientes</h2>
+      </div>
+      
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-item text-center">
+              <div class="testimonial-image mx-auto mb-4">
+                <img src="https://images.pexels.com/photos/3830880/pexels-photo-3830880.jpeg" alt="Depoimento 1" class="rounded-circle">
+              </div>
+              <div class="testimonial-content">
+                <p class="testimonial-text">"O cuidado e atenção que recebemos durante o tratamento do meu filho foram excepcionais. Toda a equipe médica foi extremamente profissional e atenciosa. Sou muito grata ao Hospital Infantil Sabará."</p>
+                <h5 class="testimonial-name">Carla Rodrigues</h5>
+                <p class="testimonial-role">Mãe de paciente</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="testimonial-item text-center">
+              <div class="testimonial-image mx-auto mb-4">
+                <img src="https://images.pexels.com/photos/4559572/pexels-photo-4559572.jpeg" alt="Depoimento 2" class="rounded-circle">
+              </div>
+              <div class="testimonial-content">
+                <p class="testimonial-text">"A experiência no Hospital Infantil Sabará foi muito positiva. Os médicos são extremamente competentes e o ambiente é acolhedor para as crianças. Recomendo a todos os pais que buscam o melhor cuidado para seus filhos."</p>
+                <h5 class="testimonial-name">Paulo Mendes</h5>
+                <p class="testimonial-role">Pai de paciente</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="testimonial-item text-center">
+              <div class="testimonial-image mx-auto mb-4">
+                <img src="https://images.pexels.com/photos/5910746/pexels-photo-5910746.jpeg" alt="Depoimento 3" class="rounded-circle">
+              </div>
+              <div class="testimonial-content">
+                <p class="testimonial-text">"Gostaria de agradecer a toda equipe do Hospital Infantil Sabará pelo cuidado excepcional com minha filha. A estrutura do hospital é excelente e os profissionais são muito dedicados."</p>
+                <h5 class="testimonial-name">Fernanda Costa</h5>
+                <p class="testimonial-role">Mãe de paciente</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-indicators testimonial-indicators">
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="appointment py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="section-heading mb-4">
+            <span class="subheading text-primary">Agende sua Consulta</span>
+            <h2>Cuide da Saúde do Seu Filho</h2>
+          </div>
+          <p>Agende uma consulta com nossos especialistas e proporcione o melhor cuidado para o seu filho. Nosso processo de agendamento é simples e rápido.</p>
+          
+          <div class="benefits mt-4">
+            <div class="benefit-item d-flex align-items-center mb-3">
+              <div class="benefit-icon me-3">
+                <i class="bi bi-check-circle-fill text-primary"></i>
+              </div>
+              <div class="benefit-text">Atendimento humanizado e personalizado</div>
+            </div>
+            
+            <div class="benefit-item d-flex align-items-center mb-3">
+              <div class="benefit-icon me-3">
+                <i class="bi bi-check-circle-fill text-primary"></i>
+              </div>
+              <div class="benefit-text">Médicos especialistas em saúde infantil</div>
+            </div>
+            
+            
+            
+            <div class="benefit-item d-flex align-items-center mb-3">
+              <div class="benefit-icon me-3">
+                <i class="bi bi-check-circle-fill text-primary"></i>
+              </div>
+              <div class="benefit-text">Estrutura moderna e ambiente acolhedor</div>
+            </div>
+            
+            <div class="benefit-item d-flex align-items-center">
+              <div class="benefit-icon me-3">
+                <i class="bi bi-check-circle-fill text-primary"></i>
+              </div>
+              <div class="benefit-text">Exames e diagnósticos precisos</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="appointment-form p-4 rounded shadow">
+            <h3 class="mb-4">Formulário de Agendamento</h3>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nomePai" placeholder="Nome do Responsável">
+                    <label for="nomePai">Nome do Responsável</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nomeCrianca" placeholder="Nome da Criança">
+                    <label for="nomeCrianca">Nome da Criança</label>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" id="telefone" placeholder="Telefone">
+                    <label for="telefone">Telefone</label>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <select class="form-select" id="especialidade">
+                      <option selected disabled value="">Selecione</option>
+                      <option>Pediatria Geral</option>
+                      <option>Cardiologia Infantil</option>
+                      <option>Neurologia Infantil</option>
+                      <option>Ortopedia Infantil</option>
+                      <option>Pneumologia Infantil</option>
+                    </select>
+                    <label for="especialidade">Especialidade</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="date" class="form-control" id="data">
+                    <label for="data">Data Preferencial</label>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-floating mb-3">
+                <textarea class="form-control" id="mensagem" style="height: 100px" placeholder="Mensagem"></textarea>
+                <label for="mensagem">Mensagem (Opcional)</label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary w-100 rounded-pill">Agendar Consulta</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact py-5 bg-light">
+    <div class="container">
+      <div class="section-heading text-center mb-5">
+        <span class="subheading text-primary">Contato</span>
+        <h2>Entre em Contato Conosco</h2>
+        <p class="lead">Estamos à disposição para esclarecer suas dúvidas e fornecer informações</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="contact-info-card h-100 p-4 text-center">
+            <div class="contact-icon mb-3">
+              <i class="bi bi-geo-alt-fill text-primary"></i>
+            </div>
+            <h4>Localização</h4>
+            <p>Av. Angélica, 1987<br>Higienópolis, São Paulo - SP<br>CEP: 01227-200</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="contact-info-card h-100 p-4 text-center">
+            <div class="contact-icon mb-3">
+              <i class="bi bi-telephone-fill text-primary"></i>
+            </div>
+            <h4>Telefones</h4>
+            <p>Agendamento: (11) 3155-2800<br>Emergência: (11) 3155-2900<br>Fax: (11) 3155-2999</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="contact-info-card h-100 p-4 text-center">
+            <div class="contact-icon mb-3">
+              <i class="bi bi-envelope-fill text-primary"></i>
+            </div>
+            <h4>Email</h4>
+            <p>contato@hospitalinfantilsabara.org.br<br>ouvidoria@hospitalinfantilsabara.org.br</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mt-5">
+        <div class="col-lg-12">
+          <div class="map-container rounded shadow">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.440259803208!2d-46.65980492554662!3d-23.54907806100896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582da261cc63%3A0xf28fb4717e45abe0!2sAv.%20Ang%C3%A9lica%2C%201987%20-%20Higien%C3%B3polis%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001228-200!5e0!3m2!1spt-BR!2sbr!4v1698274452446!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer py-5 text-white">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="footer-logo mb-3">
+            <span class="logo-text text-white">Hospital Infantil <span class="fw-bold">Sabará</span></span>
+          </div>
+          <p>Referência em saúde infantil, oferecendo atendimento médico de excelência com foco no bem-estar e segurança das crianças.</p>
+          <div class="social-links mt-3">
+            <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="me-2"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+          <h5>Links Rápidos</h5>
+          <ul class="footer-links">
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./sobre.html">Sobre Nós</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+          <h5>Especialidades</h5>
+          <ul class="footer-links">
+            <li><a href="#">Pediatria Geral</a></li>
+            <li><a href="#">Cardiologia Infantil</a></li>
+            <li><a href="#">Neurologia Infantil</a></li>
+            <li><a href="#">Ortopedia Infantil</a></li>
+            <li><a href="#">Pneumologia Infantil</a></li>
+            <li><a href="#">Todas Especialidades</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-4">
+          <h5>Boletim Informativo</h5>
+          <p>Cadastre-se para receber novidades e atualizações sobre saúde infantil</p>
+          <form class="newsletter-form mt-3">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Seu email" aria-label="Email" aria-describedby="button-addon2">
+              <button class="btn btn-outline-light" type="button" id="button-addon2">Inscrever</button>
+            </div>
+          </form>
+          <div class="mt-3">
+            <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i> (11) 3155-2800</p>
+            <p><i class="bi bi-envelope-fill me-2"></i> contato@hospitalinfantilsabara.org.br</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="mt-4 mb-4 bg-light opacity-25">
+      
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-md-0">&copy; 2023 Hospital Infantil Sabará. Todos os direitos reservados.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="mb-0">
+            <a href="#" class="text-white me-3">Política de Privacidade</a>
+            <a href="#" class="text-white">Termos de Uso</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <button type="button" class="btn btn-primary back-to-top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./scripty.js"></script>
+</body>
+</html>

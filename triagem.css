@@ -1,0 +1,48 @@
+.triagem-vermelho { background-color: #dc3545; color: white; }
+        .triagem-laranja { background-color: #fd7e14; color: white; }
+        .triagem-amarelo { background-color: #ffc107; color: black; }
+        .triagem-verde { background-color: #198754; color: white; }
+        .triagem-azul { background-color: #0d6efd; color: white; }
+        
+        .card-triagem {
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+        }
+        
+        .card-triagem:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .resultado-triagem {
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .prioridade-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .tempo-espera {
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        
+        .sintoma-item {
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .sintoma-item:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .sintoma-selecionado {
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196f3;
+        }
