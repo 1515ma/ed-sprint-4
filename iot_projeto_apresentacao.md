@@ -197,7 +197,7 @@ void loop() {
 
 ## Links Importantes
 
-- 🎥 **Vídeo Demonstração:** [https://youtu.be/3jhSg6TSzXE](https://youtu.be/3jhSg6TSzXE)
+- 🎥 **Vídeo Demonstração:** [https://youtu.be/ixD8vLu-C8s](https://youtu.be/ixD8vLu-C8s)
 - 📏 **Diagrama Draw\.io:** [Abrir Diagrama](https://viewer.diagrams.net/?tags=%7B%7D\&lightbox=1\&highlight=0000ff\&edit=_blank\&layers=1\&nav=1\&title=diagrama_iot_node_red_tagoio.drawio\&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1UoAqGqqxdLCldB8Nu3LF6DjwIDXtBVMR%26export%3Ddownload)
 - 🚀 **Projeto no Wokwi:** [https://wokwi.com/projects/429616017569088513](https://wokwi.com/projects/429616017569088513)
 
